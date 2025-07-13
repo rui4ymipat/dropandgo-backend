@@ -1,0 +1,13 @@
+{
+  "name": "dropandgo-backend",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/rui4ymipat/dropandgo-backend.git",
+  "author": "rui4ymipat <59613118+rui4ymipat@users.noreply.github.com>",
+  "license": "MIT",
+  "dependencies": {
+    "@line/bot-sdk": "^10.0.0",
+    "axios": "^1.10.0",
+    "express": "^5.1.0"
+  }
+}
