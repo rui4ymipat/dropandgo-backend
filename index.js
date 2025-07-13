@@ -2,6 +2,7 @@ const express = require("express");
 const line = require("@line/bot-sdk");
 const axios = require("axios");
 const flexPackage = require("./flex-package");
+const qs = require("qs");
 
 const app = express();
 
@@ -24,16 +25,22 @@ app.post("/webhook", line.middleware(config), async (req, res) => {
 });
 
 const sendNotify = async (msg) => {
-  await axios.post(
-    process.env.NOTIFY_URL,
-    `message=${encodeURIComponent(msg)}`,
-    {
-      headers: {
-        "Content-Type": "application/x-www-form-urlencoded",
-        Authorization: `Bearer ${process.env.NOTIFY_TOKEN.trim()}`,
-      },
-    }
-  );
+  let data = qs.stringify({
+    message: msg,
+  });
+
+  let config = {
+    method: "post",
+    maxBodyLength: Infinity,
+    url: process.env.NOTIFY_URL,
+    headers: {
+      Authorization: `Bearer ${process.env.NOTIFY_TOKEN}`,
+      "Content-Type": "application/x-www-form-urlencoded",
+    },
+    data: data,
+  };
+
+  await axios.request(config);
 };
 
 async function handleEvent(event) {
