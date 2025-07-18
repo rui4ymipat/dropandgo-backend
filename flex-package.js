@@ -10,20 +10,20 @@ module.exports = {
           type: "box",
           layout: "vertical",
           spacing: "sm",
-          backgroundColor: "#14213D",
+          backgroundColor: "#FFD23F",
           contents: [
             {
               type: "text",
               text: "ผ้าไม่เกิน 14 กก.",
               weight: "bold",
               size: "md",
-              color: "#ffffff",
+              color: "#14213D",
             },
             {
               type: "text",
               text: "รวม 139 บาท (ซัก 90 + ส่ง 49)",
               size: "sm",
-              color: "#ffffff",
+              color: "#14213D",
             },
           ],
         },
