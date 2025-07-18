@@ -29,17 +29,19 @@ module.exports = {
         footer: {
           type: "box",
           layout: "vertical",
-          backgroundColor: "#14213D",
+          backgroundColor: "#FFD23F",
           contents: [
             {
               type: "button",
               style: "primary",
-              color: "#FFD23F",
+              color: "#14213D",
               action: {
                 type: "message",
                 label: "เลือกแพ็กเกจนี้",
                 text: "เลือกแพ็กเกจ ผ้าไม่เกิน 14 โล",
               },
+              // ข้อความบนปุ่มเป็นสีขาว (ถ้าแพลตฟอร์มรองรับ)
+              textColor: "#FFFFFF",
             },
           ],
         },
@@ -69,17 +71,18 @@ module.exports = {
         footer: {
           type: "box",
           layout: "vertical",
-          backgroundColor: "#14213D",
+          backgroundColor: "#FFD23F",
           contents: [
             {
               type: "button",
               style: "primary",
-              color: "#FFD23F",
+              color: "#14213D",
               action: {
                 type: "message",
                 label: "เลือกแพ็กเกจนี้",
                 text: "เลือกแพ็กเกจ ผ้า 14–18 โล",
               },
+              textColor: "#FFFFFF",
             },
           ],
         },
@@ -109,17 +112,18 @@ module.exports = {
         footer: {
           type: "box",
           layout: "vertical",
-          backgroundColor: "#14213D",
+          backgroundColor: "#FFD23F",
           contents: [
             {
               type: "button",
               style: "primary",
-              color: "#FFD23F",
+              color: "#14213D",
               action: {
                 type: "message",
                 label: "เลือกแพ็กเกจนี้",
                 text: "เลือกแพ็กเกจ เครื่องนอน 3.5 ฟุต",
               },
+              textColor: "#FFFFFF",
             },
           ],
         },
@@ -149,17 +153,18 @@ module.exports = {
         footer: {
           type: "box",
           layout: "vertical",
-          backgroundColor: "#14213D",
+          backgroundColor: "#FFD23F",
           contents: [
             {
               type: "button",
               style: "primary",
-              color: "#FFD23F",
+              color: "#14213D",
               action: {
                 type: "message",
                 label: "เลือกแพ็กเกจนี้",
                 text: "เลือกแพ็กเกจ เครื่องนอน 5–6 ฟุต",
               },
+              textColor: "#FFFFFF",
             },
           ],
         },
@@ -189,17 +194,18 @@ module.exports = {
         footer: {
           type: "box",
           layout: "vertical",
-          backgroundColor: "#14213D",
+          backgroundColor: "#FFD23F",
           contents: [
             {
               type: "button",
               style: "primary",
-              color: "#FFD23F",
+              color: "#14213D",
               action: {
                 type: "message",
                 label: "เลือกแพ็กเกจนี้",
                 text: "เลือกแพ็กเกจ ผ้านวม 3.5 ฟุต",
               },
+              textColor: "#FFFFFF",
             },
           ],
         },
@@ -229,17 +235,18 @@ module.exports = {
         footer: {
           type: "box",
           layout: "vertical",
-          backgroundColor: "#14213D",
+          backgroundColor: "#FFD23F",
           contents: [
             {
               type: "button",
               style: "primary",
-              color: "#FFD23F",
+              color: "#14213D",
               action: {
                 type: "message",
                 label: "เลือกแพ็กเกจนี้",
                 text: "เลือกแพ็กเกจ ผ้านวม 5–6 ฟุต",
               },
+              textColor: "#FFFFFF",
             },
           ],
         },
