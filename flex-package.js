@@ -16,22 +16,25 @@ module.exports = {
               text: "ผ้าไม่เกิน 14 กก.",
               weight: "bold",
               size: "md",
+              color: "#14213D",
             },
             {
               type: "text",
               text: "รวม 139 บาท (ซัก 90 + ส่ง 49)",
               size: "sm",
-              color: "#666666",
+              color: "#1976D2",
             },
           ],
         },
         footer: {
           type: "box",
           layout: "vertical",
+          backgroundColor: "#14213D",
           contents: [
             {
               type: "button",
               style: "primary",
+              color: "#FFD23F",
               action: {
                 type: "message",
                 label: "เลือกแพ็กเกจนี้",
@@ -53,22 +56,25 @@ module.exports = {
               text: "ผ้า 14–18 กก.",
               weight: "bold",
               size: "md",
+              color: "#14213D",
             },
             {
               type: "text",
               text: "รวม 159 บาท (ซัก 110 + ส่ง 49)",
               size: "sm",
-              color: "#666666",
+              color: "#1976D2",
             },
           ],
         },
         footer: {
           type: "box",
           layout: "vertical",
+          backgroundColor: "#14213D",
           contents: [
             {
               type: "button",
               style: "primary",
+              color: "#FFD23F",
               action: {
                 type: "message",
                 label: "เลือกแพ็กเกจนี้",
@@ -90,22 +96,25 @@ module.exports = {
               text: "เครื่องนอน 3.5 ฟุต",
               weight: "bold",
               size: "md",
+              color: "#14213D",
             },
             {
               type: "text",
               text: "รวม 159 บาท (ซัก 110 + ส่ง 49)",
               size: "sm",
-              color: "#666666",
+              color: "#1976D2",
             },
           ],
         },
         footer: {
           type: "box",
           layout: "vertical",
+          backgroundColor: "#14213D",
           contents: [
             {
               type: "button",
               style: "primary",
+              color: "#FFD23F",
               action: {
                 type: "message",
                 label: "เลือกแพ็กเกจนี้",
@@ -127,22 +136,25 @@ module.exports = {
               text: "เครื่องนอน 5–6 ฟุต",
               weight: "bold",
               size: "md",
+              color: "#14213D",
             },
             {
               type: "text",
               text: "รวม 169 บาท (ซัก 110 + ส่ง 59)",
               size: "sm",
-              color: "#666666",
+              color: "#1976D2",
             },
           ],
         },
         footer: {
           type: "box",
           layout: "vertical",
+          backgroundColor: "#14213D",
           contents: [
             {
               type: "button",
               style: "primary",
+              color: "#FFD23F",
               action: {
                 type: "message",
                 label: "เลือกแพ็กเกจนี้",
@@ -164,22 +176,25 @@ module.exports = {
               text: "ผ้านวม 3.5 ฟุต",
               weight: "bold",
               size: "md",
+              color: "#14213D",
             },
             {
               type: "text",
               text: "รวม 169 บาท (ซัก 110 + ส่ง 59)",
               size: "sm",
-              color: "#666666",
+              color: "#1976D2",
             },
           ],
         },
         footer: {
           type: "box",
           layout: "vertical",
+          backgroundColor: "#14213D",
           contents: [
             {
               type: "button",
               style: "primary",
+              color: "#FFD23F",
               action: {
                 type: "message",
                 label: "เลือกแพ็กเกจนี้",
@@ -201,22 +216,25 @@ module.exports = {
               text: "ผ้านวม 5–6 ฟุต",
               weight: "bold",
               size: "md",
+              color: "#14213D",
             },
             {
               type: "text",
               text: "รวม 219 บาท (ซัก 160 + ส่ง 59)",
               size: "sm",
-              color: "#666666",
+              color: "#1976D2",
             },
           ],
         },
         footer: {
           type: "box",
           layout: "vertical",
+          backgroundColor: "#14213D",
           contents: [
             {
               type: "button",
               style: "primary",
+              color: "#FFD23F",
               action: {
                 type: "message",
                 label: "เลือกแพ็กเกจนี้",
