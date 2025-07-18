@@ -51,19 +51,20 @@ module.exports = {
           type: "box",
           layout: "vertical",
           spacing: "sm",
+          backgroundColor: "#FFD23F",
           contents: [
             {
               type: "text",
               text: "ผ้า 14–18 กก.",
               weight: "bold",
               size: "md",
-              color: "#ffffff",
+              color: "#14213D",
             },
             {
               type: "text",
               text: "รวม 159 บาท (ซัก 110 + ส่ง 49)",
               size: "sm",
-              color: "#1976D2",
+              color: "#14213D",
             },
           ],
         },
@@ -75,7 +76,7 @@ module.exports = {
             {
               type: "button",
               style: "primary",
-              color: "#FFD23F",
+              color: "#14213D",
               action: {
                 type: "message",
                 label: "เลือกแพ็กเกจนี้",
@@ -91,6 +92,7 @@ module.exports = {
           type: "box",
           layout: "vertical",
           spacing: "sm",
+          backgroundColor: "#FFD23F",
           contents: [
             {
               type: "text",
@@ -103,7 +105,7 @@ module.exports = {
               type: "text",
               text: "รวม 159 บาท (ซัก 110 + ส่ง 49)",
               size: "sm",
-              color: "#1976D2",
+              color: "#14213D",
             },
           ],
         },
@@ -115,7 +117,7 @@ module.exports = {
             {
               type: "button",
               style: "primary",
-              color: "#FFD23F",
+              color: "#14213D",
               action: {
                 type: "message",
                 label: "เลือกแพ็กเกจนี้",
@@ -131,6 +133,7 @@ module.exports = {
           type: "box",
           layout: "vertical",
           spacing: "sm",
+          backgroundColor: "#FFD23F",
           contents: [
             {
               type: "text",
@@ -143,7 +146,7 @@ module.exports = {
               type: "text",
               text: "รวม 169 บาท (ซัก 110 + ส่ง 59)",
               size: "sm",
-              color: "#1976D2",
+              color: "#14213D",
             },
           ],
         },
@@ -155,7 +158,7 @@ module.exports = {
             {
               type: "button",
               style: "primary",
-              color: "#FFD23F",
+              color: "#14213D",
               action: {
                 type: "message",
                 label: "เลือกแพ็กเกจนี้",
@@ -171,6 +174,7 @@ module.exports = {
           type: "box",
           layout: "vertical",
           spacing: "sm",
+          backgroundColor: "#FFD23F",
           contents: [
             {
               type: "text",
@@ -183,7 +187,7 @@ module.exports = {
               type: "text",
               text: "รวม 169 บาท (ซัก 110 + ส่ง 59)",
               size: "sm",
-              color: "#1976D2",
+              color: "#14213D",
             },
           ],
         },
@@ -195,7 +199,7 @@ module.exports = {
             {
               type: "button",
               style: "primary",
-              color: "#FFD23F",
+              color: "#14213D",
               action: {
                 type: "message",
                 label: "เลือกแพ็กเกจนี้",
@@ -211,6 +215,7 @@ module.exports = {
           type: "box",
           layout: "vertical",
           spacing: "sm",
+          backgroundColor: "#FFD23F",
           contents: [
             {
               type: "text",
@@ -223,7 +228,7 @@ module.exports = {
               type: "text",
               text: "รวม 219 บาท (ซัก 160 + ส่ง 59)",
               size: "sm",
-              color: "#1976D2",
+              color: "#14213D",
             },
           ],
         },
@@ -235,7 +240,7 @@ module.exports = {
             {
               type: "button",
               style: "primary",
-              color: "#FFD23F",
+              color: "#14213D",
               action: {
                 type: "message",
                 label: "เลือกแพ็กเกจนี้",

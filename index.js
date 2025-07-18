@@ -54,9 +54,9 @@ async function handleEvent(event) {
       return client.replyMessage(event.replyToken, {
         type: "image",
         originalContentUrl:
-          "https://firebasestorage.googleapis.com/v0/b/drop-and-go-6e3db.firebasestorage.app/o/2B722B47-DA1A-426D-8DB8-AFD72B73F85A.png?alt=media&token=621d89d7-9609-4423-925a-21a093434b14",
+          "https://firebasestorage.googleapis.com/v0/b/drop-and-go-6e3db.firebasestorage.app/o/S__7643152.jpg?alt=media&token=eec356c4-54ca-4725-81f7-efa1206b99d3",
         previewImageUrl:
-          "https://firebasestorage.googleapis.com/v0/b/drop-and-go-6e3db.firebasestorage.app/o/2B722B47-DA1A-426D-8DB8-AFD72B73F85A.png?alt=media&token=621d89d7-9609-4423-925a-21a093434b14",
+          "https://firebasestorage.googleapis.com/v0/b/drop-and-go-6e3db.firebasestorage.app/o/S__7643152.jpg?alt=media&token=eec356c4-54ca-4725-81f7-efa1206b99d3",
       });
 
     case "แพ็คเกจราคา":
