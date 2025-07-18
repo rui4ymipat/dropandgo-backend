@@ -17,13 +17,13 @@ module.exports = {
               text: "ผ้าไม่เกิน 14 กก.",
               weight: "bold",
               size: "md",
-              color: "#14213D",
+              color: "#ffffff",
             },
             {
               type: "text",
               text: "รวม 139 บาท (ซัก 90 + ส่ง 49)",
               size: "sm",
-              color: "#1976D2",
+              color: "#ffffff",
             },
           ],
         },
@@ -35,7 +35,7 @@ module.exports = {
             {
               type: "button",
               style: "primary",
-              color: "#FFD23F",
+              color: "#14213D",
               action: {
                 type: "message",
                 label: "เลือกแพ็กเกจนี้",
@@ -57,7 +57,7 @@ module.exports = {
               text: "ผ้า 14–18 กก.",
               weight: "bold",
               size: "md",
-              color: "#14213D",
+              color: "#ffffff",
             },
             {
               type: "text",
