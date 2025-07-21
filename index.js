@@ -20,7 +20,7 @@ app.post("/webhook", line.middleware(config), async (req, res) => {
     res.json(results);
   } catch (err) {
     console.error(err);
-    res.status(500).end();
+    res.status(200).end();
   }
 });
 
