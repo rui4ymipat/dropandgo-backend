@@ -48,9 +48,29 @@ async function handleEvent(event) {
 
   const text = event.message.text.trim();
   const profile = await client.getProfile(event.source.userId);
-
   // New case: if message contains 'เลือกแพ็คเกจ'
-  if (text.includes("เลือกแพ็คเกจ")) {
+  if (
+    text.includes("เลือกแพ็กเกจ") ||
+    text === "วิธีใช้งาน" ||
+    text === "แพ็คเกจราคา" ||
+    text === "ติดต่อแอดมิน" ||
+    text === "จองคิวซักผ้า"
+  ) {
+    await axios.post(
+      `https://api.line.me/v2/bot/chat/loading/start`,
+      {
+        chatId: event.source.userId,
+        loadingSeconds: 5,
+      },
+      {
+        headers: {
+          Authorization: `Bearer ${config.channelAccessToken}`,
+          "Content-Type": "application/json",
+        },
+      }
+    );
+  }
+  if (text.includes("เลือกแพ็กเกจ")) {
     return client.replyMessage(event.replyToken, {
       type: "text",
       text: "แอดมินกำลังมากรุณารอสักครู่ 🕒😊",
