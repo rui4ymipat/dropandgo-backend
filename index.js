@@ -49,6 +49,14 @@ async function handleEvent(event) {
   const text = event.message.text.trim();
   const profile = await client.getProfile(event.source.userId);
 
+  // New case: if message contains 'เลือกแพ็คเกจ'
+  if (text.includes("เลือกแพ็คเกจ")) {
+    return client.replyMessage(event.replyToken, {
+      type: "text",
+      text: "แอดมินกำลังมากรุณารอสักครู่ 🕒😊",
+    });
+  }
+
   switch (text) {
     case "วิธีใช้งาน":
       return client.replyMessage(event.replyToken, {
