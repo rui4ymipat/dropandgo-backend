@@ -86,88 +86,88 @@ module.exports = {
           ],
         },
       },
-      {
-        type: "bubble",
-        body: {
-          type: "box",
-          layout: "vertical",
-          spacing: "sm",
-          backgroundColor: "#FFD23F",
-          contents: [
-            {
-              type: "text",
-              text: "เครื่องนอน 3.5 ฟุต",
-              weight: "bold",
-              size: "md",
-              color: "#14213D",
-            },
-            {
-              type: "text",
-              text: "รวม 159 บาท (ซัก 110 + ส่ง 49)",
-              size: "sm",
-              color: "#14213D",
-            },
-          ],
-        },
-        footer: {
-          type: "box",
-          layout: "vertical",
-          backgroundColor: "#14213D",
-          contents: [
-            {
-              type: "button",
-              style: "primary",
-              color: "#14213D",
-              action: {
-                type: "message",
-                label: "เลือกแพ็กเกจนี้",
-                text: "เลือกแพ็กเกจ เครื่องนอน 3.5 ฟุต",
-              },
-            },
-          ],
-        },
-      },
-      {
-        type: "bubble",
-        body: {
-          type: "box",
-          layout: "vertical",
-          spacing: "sm",
-          backgroundColor: "#FFD23F",
-          contents: [
-            {
-              type: "text",
-              text: "เครื่องนอน 5–6 ฟุต",
-              weight: "bold",
-              size: "md",
-              color: "#14213D",
-            },
-            {
-              type: "text",
-              text: "รวม 169 บาท (ซัก 110 + ส่ง 59)",
-              size: "sm",
-              color: "#14213D",
-            },
-          ],
-        },
-        footer: {
-          type: "box",
-          layout: "vertical",
-          backgroundColor: "#14213D",
-          contents: [
-            {
-              type: "button",
-              style: "primary",
-              color: "#14213D",
-              action: {
-                type: "message",
-                label: "เลือกแพ็กเกจนี้",
-                text: "เลือกแพ็กเกจ เครื่องนอน 5–6 ฟุต",
-              },
-            },
-          ],
-        },
-      },
+      // {
+      //   type: "bubble",
+      //   body: {
+      //     type: "box",
+      //     layout: "vertical",
+      //     spacing: "sm",
+      //     backgroundColor: "#FFD23F",
+      //     contents: [
+      //       {
+      //         type: "text",
+      //         text: "เครื่องนอน 3.5 ฟุต",
+      //         weight: "bold",
+      //         size: "md",
+      //         color: "#14213D",
+      //       },
+      //       {
+      //         type: "text",
+      //         text: "รวม 159 บาท (ซัก 110 + ส่ง 49)",
+      //         size: "sm",
+      //         color: "#14213D",
+      //       },
+      //     ],
+      //   },
+      //   footer: {
+      //     type: "box",
+      //     layout: "vertical",
+      //     backgroundColor: "#14213D",
+      //     contents: [
+      //       {
+      //         type: "button",
+      //         style: "primary",
+      //         color: "#14213D",
+      //         action: {
+      //           type: "message",
+      //           label: "เลือกแพ็กเกจนี้",
+      //           text: "เลือกแพ็กเกจ เครื่องนอน 3.5 ฟุต",
+      //         },
+      //       },
+      //     ],
+      //   },
+      // },
+      // {
+      //   type: "bubble",
+      //   body: {
+      //     type: "box",
+      //     layout: "vertical",
+      //     spacing: "sm",
+      //     backgroundColor: "#FFD23F",
+      //     contents: [
+      //       {
+      //         type: "text",
+      //         text: "เครื่องนอน 5–6 ฟุต",
+      //         weight: "bold",
+      //         size: "md",
+      //         color: "#14213D",
+      //       },
+      //       {
+      //         type: "text",
+      //         text: "รวม 169 บาท (ซัก 110 + ส่ง 59)",
+      //         size: "sm",
+      //         color: "#14213D",
+      //       },
+      //     ],
+      //   },
+      //   footer: {
+      //     type: "box",
+      //     layout: "vertical",
+      //     backgroundColor: "#14213D",
+      //     contents: [
+      //       {
+      //         type: "button",
+      //         style: "primary",
+      //         color: "#14213D",
+      //         action: {
+      //           type: "message",
+      //           label: "เลือกแพ็กเกจนี้",
+      //           text: "เลือกแพ็กเกจ เครื่องนอน 5–6 ฟุต",
+      //         },
+      //       },
+      //     ],
+      //   },
+      // },
       {
         type: "bubble",
         body: {
