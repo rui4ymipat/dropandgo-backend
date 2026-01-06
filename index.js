@@ -91,9 +91,9 @@ async function handleEvent(event) {
       return client.replyMessage(event.replyToken, {
         type: "image",
         originalContentUrl:
-          "https://firebasestorage.googleapis.com/v0/b/drop-and-go-6e3db.firebasestorage.app/o/5CDF61DC-9190-4097-87AA-00C3A9ED9068.png?alt=media&token=b79acb87-465b-4a1b-a0e5-0f7d25b1e8a9",
+          "https://firebasestorage.googleapis.com/v0/b/drop-and-go-6e3db.firebasestorage.app/o/S__13107206.jpg?alt=media&token=788cf546-331b-4910-9c1c-fae64fd5d5d0",
         previewImageUrl:
-          "https://firebasestorage.googleapis.com/v0/b/drop-and-go-6e3db.firebasestorage.app/o/5CDF61DC-9190-4097-87AA-00C3A9ED9068.png?alt=media&token=b79acb87-465b-4a1b-a0e5-0f7d25b1e8a9",
+          "https://firebasestorage.googleapis.com/v0/b/drop-and-go-6e3db.firebasestorage.app/o/S__13107206.jpg?alt=media&token=788cf546-331b-4910-9c1c-fae64fd5d5d0",
       });
 
     case "ติดต่อแอดมิน":
@@ -113,9 +113,9 @@ async function handleEvent(event) {
         {
           type: "image",
           originalContentUrl:
-            "https://firebasestorage.googleapis.com/v0/b/drop-and-go-6e3db.firebasestorage.app/o/5CDF61DC-9190-4097-87AA-00C3A9ED9068.png?alt=media&token=b79acb87-465b-4a1b-a0e5-0f7d25b1e8a9",
+            "https://firebasestorage.googleapis.com/v0/b/drop-and-go-6e3db.firebasestorage.app/o/S__13107206.jpg?alt=media&token=788cf546-331b-4910-9c1c-fae64fd5d5d0",
           previewImageUrl:
-            "https://firebasestorage.googleapis.com/v0/b/drop-and-go-6e3db.firebasestorage.app/o/5CDF61DC-9190-4097-87AA-00C3A9ED9068.png?alt=media&token=b79acb87-465b-4a1b-a0e5-0f7d25b1e8a9",
+            "https://firebasestorage.googleapis.com/v0/b/drop-and-go-6e3db.firebasestorage.app/o/S__13107206.jpg?alt=media&token=788cf546-331b-4910-9c1c-fae64fd5d5d0",
         },
         flexPackage,
         {
